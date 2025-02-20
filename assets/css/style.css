@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+.navbar {
+    height: 6vh;
+    background-color: #161617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.iphone-16-banner {
+    height: 94vh;
+    background-image: url(../images/iphone-16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphone-16-banner h1 {
+    font-size: 60px;
+}
+
+.iphone-16-banner p {
+    font-size: 30px;
+}
+
+.banner-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.fill-blue-btn {
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0077ED;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.outline-blue-btn {
+    height: 40px;
+    width: 90px;
+    background-color: transparent;
+    border: 1px solid #0077ED;
+    color: #0077ED;
+    border-radius: 50px;
+}
+
+
+.iphone-166-banner {
+    height: 94vh;
+    background-image: url(../images/iphone-166.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 10px solid white;
+}
+
+.iphone-166-banner h1 {
+    font-size: 60px;
+}
+
+.iphone-166-banner p {
+    font-size: 30px;
+}
+
+.fill-white-btn {
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+}
+
+.outline-white-btn {
+    height: 40px;
+    width: 90px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+
+.iwatch-banner {
+    height: 94vh;
+    background-image: url(../images/iwatch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 10px solid white;
+}
+
+.iwatch-banner h1 {
+    font-size: 60px;
+}
+
+.iwatch-banner p {
+    font-size: 30px;
+}
+
+.promo-container-1 {
+    height: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.promo1 {
+    height: 592px;
+    width: 48%;
+    background-image: url(../images/watchunity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 10px;
+}
+
+.promo2 {
+    height: 592px;
+    width: 48%;
+    background-image: url(../images/macbookm3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.promo3 {
+    height: 592px;
+    width: 48%;
+    background-image: url(../images/ipadpro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.promo4 {
+    height: 592px;
+    width: 48%;
+    background-image: url(../images/airpodspro2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    color: white;
+}
